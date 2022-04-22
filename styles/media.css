@@ -1,0 +1,381 @@
+@media screen and (max-width: 1290px) {
+    .container {
+        width: 100%;
+    }
+
+    .header_block {
+        padding: 25px 50px;
+    }
+
+    .header_item a {
+        margin-right: 20px;
+    }
+
+    .main_block, .about_block, .aboutWork_block, .form_block, .footer1_block, .footer2_block {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .main_text h2, .main_text p, .about_text h2, .about_text p {
+        line-height: normal;
+    }
+
+    .getStarted, .about_text a {
+        font-size: 15px;
+        padding: 15px 35px;
+    }
+
+    .play {
+        font-size: 13px;
+        padding: 11px 28px;
+    }
+
+    .footer1_item p a {
+        font-size: 15px;
+    }
+
+    .footer1_block {
+        column-gap: 10px;
+    }
+
+    .footer1_item ul {
+        row-gap: 5px;
+    }
+
+    .footer2_item p {
+        font-size: 15px;
+    }
+
+    .footer2_item button {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .main_block, .about_block {
+        margin-bottom: 90px;
+    }
+
+    .main_block, .about_block {
+        grid-template-columns: 1fr;
+    }
+
+    .main_text {
+        margin-bottom: 70px;
+        text-align: center;
+    }
+
+    .about_text {
+        grid-row-start: 1;
+        margin-bottom: 70px;
+        text-align: center;
+    }
+
+    .aboutWork_item p {
+        line-height: normal;
+    }
+
+    .footer2_item {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 15px;
+    }
+
+    .footer2_item p {
+        grid-row-start: 2;
+        grid-column-start: span 2;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header_block {
+        padding: 10px 30px;
+    }
+
+    .header_button a {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+
+    .header_item a {
+        font-size: 15px;
+    }
+
+    .header_item a:nth-child(1) {
+        margin-left: 20px;
+    }
+
+    .about_block {
+        margin-bottom: 50px;
+    }
+
+    .aboutWork_block {
+        grid-template-columns: 1fr;
+    }
+
+    .aboutWork_image {
+        margin-bottom: 30px;
+    }
+
+    .aboutWork_item {
+        border-bottom: 1px solid rgb(0, 0, 0, .3);
+        margin-bottom: 40px;
+    }
+
+    .aboutWork_item p {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header_block {
+        padding: 5px 30px;
+    }
+
+    .header_item a {
+        margin-right: 10px;
+    }
+
+    .header_item a:nth-child(1) {
+        margin-left: 10px;
+    }
+
+    .main_block, .about_block, .aboutWork_block, .form_block, .footer2_block {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .main_text h2, .about_text h2 {
+        font-size: 40px;
+    }
+
+    .main_block {
+        margin-bottom: 70px;
+    }
+
+    .aboutWork_block {
+        margin-bottom: 70px;
+    }
+
+    .footer1_block {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .footer1_item ul {
+        justify-items: center;
+    }
+
+    .footer1_item p a {
+        line-height: normal;
+    }
+
+    .footer2_item p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header_block {
+        grid-template-columns: 40% 40% auto;
+    }
+
+    .header_menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .header_menu.active {
+        display: grid;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(62, 116, 241, 0.8);
+    }
+
+    .header_menu.active ul {
+        grid-template-columns: 1fr;
+        justify-items: flex-start;
+        padding-left: 30px;
+    }
+
+    .header_menu.active li {
+        margin-bottom: 30px;
+    }
+
+    .header_menu.active a {
+        color: #fff;
+        font-size: 23px;
+    }
+
+    .header_item a:hover {
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+        transition: all 0.3s;
+    }
+
+    .main_text p, .about_text p, .aboutWork_item p {
+        font-size: 15px;
+    }
+
+    .main_buttons {
+        justify-content: center;
+    }
+
+    .getStarted {
+        font-size: 10px;
+        padding: 7px 31px;
+    }
+
+    .play {
+        font-size: 10px;
+        padding: 4px 12px;
+    }
+
+    .play img {
+        margin-right: 10px;
+    }
+
+    .about_text a {
+        padding: 10px 28px;
+        font-size: 12px;
+    }
+
+    .input_block {
+        padding: 0 30px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .form_block {
+        padding: 60px 30px;
+    }
+
+    .form input {
+        width: 100%;
+    }
+
+    .form input {
+        padding: 30px 112px 30px 72px;
+        font-size: 13px;
+    }
+
+    .form button {
+        right: 25px;
+        top: 25px;
+        font-size: 16px;
+        line-height: normal;
+        padding: 8px 18px;
+    }
+
+    .footer1_block {
+        padding: 30px 40px;
+    }
+
+    .footer2_item button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .footer2_block {
+        padding: 10px 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+    .main_text h3, .about_text h3 {
+        font-size: 20px;
+    }
+
+    .main_text h2, .about_text h2  {
+        font-size: 30px;
+    }
+
+    .form_block h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .form_block p {
+        font-size: 15px;
+    }
+
+    .footer1_block {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .footer1_item ul {
+        text-align: center;
+    }
+
+    .footer2_item ul {
+        column-gap: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footer2_item {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer2_item ul{
+        grid-column-start: span 2;
+        column-gap: 3px;
+    }
+
+    .footer2_item p {
+        grid-column-start: span 3;
+    }
+
+    .footer2_item button {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .header_button a {
+        font-size: 10px;
+    }
+
+    .getStarted {
+        padding: 7px 13px;
+    }
+
+    .form_block h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .form_block p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .form input {
+        padding: 30px 80px 30px 65px ;
+    }
+
+    .form button {
+        font-size: 10px;
+        padding: 8px 15px;
+        top: 28px;
+        right: 10px;
+    }
+
+    .form img {
+        left: 10px;
+    }
+}
+
